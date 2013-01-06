@@ -6,4 +6,5 @@ LawFirm::Application.routes.draw do
   root to: 'pages#index'
 
   resources :attorneys
+  resources :practice_areas
 end

@@ -1,0 +1,4 @@
+%h1 Practice Areas
+%ul
+  - @practice_areas.each do |practice_area|
+    %li= link_to practice_area.name, practice_area
