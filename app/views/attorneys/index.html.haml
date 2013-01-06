@@ -1,0 +1,5 @@
+%ul
+  - @attorneys.each do |attorney|
+    %li
+      #{attorney.first_name} #{attorney.last_name} |
+      = mail_to attorney.email, attorney.email
