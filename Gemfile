@@ -7,6 +7,7 @@ gem 'pg'
 gem 'activeadmin'
 gem "meta_search", '>= 1.1.0.pre'
 gem 'haml-rails'
+gem 'redcarpet'
 gem 'sass-rails'
 gem 'jquery-rails'
 

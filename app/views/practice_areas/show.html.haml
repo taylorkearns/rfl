@@ -1,6 +1,7 @@
 %h1= @practice_area.name
 %h2 Overview
-%p= @practice_area.overview
+= markdown @practice_area.overview
+
 %h3 Practicing attorneys:
 %ul
   - @practice_area.practicing_attorneys.each do |attorney|
