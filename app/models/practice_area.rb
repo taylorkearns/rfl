@@ -4,8 +4,8 @@ class PracticeArea < ActiveRecord::Base
   has_many :articles
   has_many :links
 
-  has_many :attorneys_practice_areas
-  has_many :attorneys, through: :attorneys_practice_areas
+  has_many :attorney_practices
+  has_many :attorneys, through: :attorney_practices
 
   scope :ordered, order('name')
 
