@@ -8,6 +8,6 @@ class Attorney < ActiveRecord::Base
   scope :ordered, order('list_order')
 
   def to_s
-    "#{first_name} #{middle_name} #{last_name}"
+    "#{first_name} #{middle_name} #{last_name}".squish
   end
 end
